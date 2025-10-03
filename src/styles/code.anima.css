@@ -1,0 +1,36 @@
+#caixa-code {
+    border: solid 1px white;
+    width: 45%;
+}
+#caixa-code1{
+    width: 55%;
+    border: solid 1px white;
+}
+#caixa1 {
+    backdrop-filter: blur(3px);
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.562);
+    border: solid 1px white;
+    display: flex;
+    border-radius: 5px;
+    height: 90%;
+    margin-bottom: -3%;
+}
+nav {
+    border: solid 1px rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 5px;
+    height: 5%;
+    margin-bottom: 1%;
+}
+
+ul {
+    display: flex;
+    font-family: 'Orbitron';
+    font-size: 0.3rem;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+
