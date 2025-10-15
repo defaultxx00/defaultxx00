@@ -3,221 +3,318 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/animate_others.css">
+    <link rel="stylesheet" href="styles/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="/src/styles/bio.css">
-    <link rel="stylesheet" href="styles/fundoheader.css">
-    <link rel="stylesheet" href="/src/styles/code.anima.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&family=Orbitron:wght@400..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/divs_text.css">
-    <title>J-p's web Port</title>
+    <link rel="icon" type="image/png" href="img/hed.jpg">
+    <title>João Pedro - FullStack Developer</title>
 </head>
 <body>
-    <header>
-        <div class="conteiner">
-            
-            <div id="caixa1" data-aos="fade-right">
-               <div id="caixa-code1">
-                 <h1 data-aos="fade-left"
-     data-aos-offset="100"
-     data-aos-easing="ease-in-sine" style="color:rgb(255, 255, 255);" id="TXTTTXT">Olá! me chamo João, prazer!</h1>
-     <br><br>
-     <h2 data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" id="text-header-seila">Bem vindo!</h2>  
-     <br>
-     <h2 data-aos="fade-down" id="text-header-seila">FullStack dev | Skiddie | BackEnd Dev</h2>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">&lt;/jp&gt;</span>
                </div>
-                <div id="caixa-code">
-                    <pre data-aos="zoom-in">
-    "A Matrix está à sua volta. Está te vestindo agora mesmo.
-    É o mundo que foi colocado diante dos seus olhos para lhe cegar da verdade."
-
-    "Que verdade?"
-
-    "De que você é um escravo, Neo. Como todos os outros, você nasceu
-    em um cativeiro.
-    Nasceu em uma prisão que não pode cheirar, nem provar, nem tocar.
-    
-    Uma prisão para a sua mente."
-
-
-    Matrix - 21 -5 - 1999
-                    </pre>
-
-                    
-                </div>
-    </div>
-
-            <div id="caixa2" data-aos="fade-left">
-                <h3 id="text-header-seila">transformando ideias em código</h3>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contato</a>
             </div>
         </div>
-    </header>
+    </nav>
 
-    <main data-aos="fade-up">
-        <div class="conteiner-main">
-            <div id="left">
-                <div class="bio-item" id="icon" data-aos="flip-up">
-                    
-                </div>
-                <div class="bio-item" data-aos="zoom-in">
-                    <p data-aos="fade-down">
-                        nome: João pedro
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Olá, eu sou</span>
+                        <span class="name">João Pedro</span>
+                        <span class="role">FullStack Developer | Pentester</span>
+                    </h1>
+                    <p class="hero-description">
+                        Transformando ideias em código. Especializado em desenvolvimento web moderno 
+                        e apaixonado por tecnologia desde 2012.
                     </p>
-                    <p data-aos="fade-down">
-                        idade: 18
-                    </p>
-                    <p data-aos="fade-down">
-                        sexo: masculino
-                    </p>
-                    <p data-aos="fade-down">
-                        stack: dev | skiddie
-                    </p>
-                    <p data-aos="fade-down">
-                        altura: 1,84
-                    </p>
-                    <p data-aos="fade-down">
-                        peso: 75kg
-                    </p>
-                    <p data-aos="fade-down">
-                        Dn: 04-09-2007
-                    </p>
-                </div>
-            </div>
-            <div id="right">
-                <div id="bio">
-                    <h3 data-aos="fade-up"
-     data-aos-anchor-placement="top-center">Sobre mim...</h3>
-                    <p data-aos="fade-right"
-     data-aos-offset="300"
-     data-aos-easing="ease-in-sine">Me chamo joão pedro, moro em uma cidade pequena no interios de são paulo - BR <br>
-                    sou apaixonado por tecnologia desde criança, mas comecei a estudar somente em 2023 <br>
-                    quando comprei meu primeiro computador, desde então fui me admirando cada vez mais <br>
-                    com essa área que está sendo cada vez mais reconhecida.
-                    <br><br>
-                    Atualmente estou estudando bastante backend, tenho conhecimento de front, mas <br>
-                    pretendo mesmo atuar como pentester daqui alguns anos.
-                    </p>
-                    <br>
-                    <pre data-aos="zoom-in-up">
-                        "O que é a Matrix? Controle. A Matrix é um mundo de sonhos gerado por computador... 
-                        É o mundo que foi colocado diante dos seus olhos para lhe cegar da verdade."
-                        
-                        - Morpheus
-                    </pre>
-                </div>
-                <div id="other">
-                    <div id="sexo-gif1">
-                    <pre data-aos="zoom-out">
-        hello user
-
-        apt update && apt upgrade -y
-        netsh wlan show profile "Wire" key=clear
-
-        sudo su: *****
-        root@user> whoami
-        root@user> ???
-
-        root@user> aircrack-ng -w /usr/share/wordlists/rockyou.txt
-        klNjBhlVkhuVyu¨5656&r6HANDSHAKE.pcap
-
-        00101001010010100101001001111010101001001010
-                    </pre>
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-primary">Conheça-me</a>
+                        <a href="#contact" class="btn btn-secondary">Vamos conversar</a>
                     </div>
-                    <div id="sexo-gif2" data-aos="fade-up"></div>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="img/icon.jpeg" alt="João Pedro" class="profile-img">
+                        <div class="profile-overlay"></div>
+                    </div>
+                    <div class="floating-elements">
+                        <div class="code-snippet">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                            </div>
+                            <div class="terminal-content">
+                                <p class="code-line"><span class="prompt">$</span> whoami</p>
+                                <p class="code-line"><span class="output">joao-pedro-dev</span></p>
+                                <p class="code-line"><span class="prompt">$</span> cat skills.txt</p>
+                                <p class="code-line"><span class="output">FullStack | Backend | Security</span></p>
+                            </div>
+                </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-    
-    <div id="more" data-aos="fade-up">
-        <div class="conteiner-more" >
-            <div id="stacks">
-                <h1 id="texto-stack">STACKS</h1>
+        <div class="scroll-indicator" data-aos="fade-up">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
 
-                <h1 id="texto-stack">lógica de programação</h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-lgc" data-aos="fade-right"></div>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">Conheça um pouco da minha jornada</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <div class="about-card">
+                        <h3>Minha História</h3>
+                        <p>
+                            Me chamo João Pedro, moro em uma cidade pequena no interior de São Paulo. 
+                            Sou apaixonado por tecnologia desde criança, mas comecei a estudar programação 
+                            em 2023 quando comprei meu primeiro computador.
+                        </p>
+                        <p>
+                            Desde então, tenho me dedicado intensamente ao desenvolvimento web, 
+                            focando especialmente em backend e segurança. Atualmente estou estudando 
+                            para me tornar um pentester profissional.
+                        </p>
+                    </div>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="stat-number">18</div>
+                            <div class="stat-label">Anos</div>
                 </div>
-                <h1 id="texto-stack">front-end</h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-front" data-aos="fade-right"></div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Anos de Estudo</div>
                 </div>
-                <h1 id="texto-stack">backend</h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-back" data-aos="fade-right"></div>
+                        <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="stat-number">∞</div>
+                            <div class="stat-label">Paixão por Código</div>
                 </div>
-                <h1 id="texto-stack">C# </h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-cs" data-aos="fade-right"></div>
                 </div>
-                <h1 id="texto-stack">python</h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-py" data-aos="fade-right"></div>
                 </div>
 
-                <h1 id="texto-stack">Git | github</h1>
-                <div class="caixa-stk" >
-                    <div id="load-stk-gt" data-aos="fade-right"></div>
+                <div class="about-quote" data-aos="fade-left">
+                    <div class="quote-card">
+                        <div class="quote-text">
+                            <p>"O que é a Matrix? Controle. A Matrix é um mundo de sonhos gerado por computador..."</p>
+                            <p>"É o mundo que foi colocado diante dos seus olhos para lhe cegar da verdade."</p>
+                        </div>
+                        <div class="quote-author">- Morpheus</div>
+                    </div>
                 </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Tecnologias</h2>
+                <p class="section-subtitle">Minhas especialidades técnicas</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
-            </div>
-            <div id="lang_soft">
-                <div id="lang">
-                    <h1 id="texto-stack">langs</h1>
-                    <p>portu</p>
-                    <div class="caixa-stk">
-                    <div id="load-stk-pt" data-aos="fade-right" ></div>
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C#</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="35%"></div>
+                            </div>
+                        </div>
                     </div>
-                    <p>ingles</p>
-                <div class="caixa-stk" data-aos="fade-right">
-                    <div id="load-stk-eng" ></div>
                 </div>
-                <p>frances</p>
-                <div class="caixa-stk" data-aos="fade-right">
-                    <div id="load-stk-fr" ></div>
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">Ferramentas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Git</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80%"></div>
+                            </div>
+                        </div>
                 </div>
                 </div>
-                <div id="soft" data-aos="zoom-in">
-                    <h3>soft skills</h3>
-                    <p data-aos="fade-down">autodidatismo, criatividade, resolução de problemas, trabalho em equipe <br>
-                    proatividade.</p>
-
-                    <hr>
-
-                    
+                
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">Idiomas</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Português</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="100%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Inglês</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Francês</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="40%"></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <footer data-aos="fade-up">
-        <h1 id="texto-stack-footer" data-aos="flip-up">lets talk</h1>
-        <div id="talk">
-            <div id="github-talk" data-aos="fade-down-right">
-                <h2>My Github</h2>
-                <a href="https://github.com/defaultxx00">Def_github</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Vamos Conversar?</h2>
+                <p class="section-subtitle">Estou sempre aberto a novas oportunidades e projetos</p>
             </div>
-            <div id="linkedin-talk" data-aos="fade-down-right">
-                <h2>My linkedin</h2>
-                <a href="https://www.linkedin.com/in/joao-pedro-70b08b318/">Linkedin</a>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <h3>Entre em Contato</h3>
+                        <p>Pronto para transformar suas ideias em realidade digital.</p>
+                        
+                        <div class="contact-methods">
+                            <a href="https://github.com/defaultxx00" class="contact-method" target="_blank">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">GitHub</span>
+                                    <span class="contact-value">@defaultxx00</span>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.linkedin.com/in/joao-pedro-70b08b318/" class="contact-method" target="_blank">
+                                <div class="contact-icon">💼</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LinkedIn</span>
+                                    <span class="contact-value">João Pedro</span>
+                                </div>
+                            </a>
+                            
+                            <div class="contact-method">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Instagram</span>
+                                    <span class="contact-value">@jao_pedro.f</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-terminal" data-aos="fade-left">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="terminal-dot red"></span>
+                            <span class="terminal-dot yellow"></span>
+                            <span class="terminal-dot green"></span>
+                            <span class="terminal-title">terminal</span>
+                        </div>
+                        <div class="terminal-content">
+                            <p class="code-line"><span class="prompt">$</span> echo "Hello World!"</p>
+                            <p class="code-line"><span class="output">Hello World!</span></p>
+                            <p class="code-line"><span class="prompt">$</span> <span class="cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div id="insta-talk" data-aos="fade-down-right">
-                <h2>instagram</h2>
-                <p>jao_pedro.f</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 João Pedro. Feito com ❤️ e muito ☕</p>
+                <p class="footer-quote">"O código é poesia em movimento"</p>
             </div>
         </div>
     </footer>
 
-
-    <script src="scripts/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
 <script>
-  AOS.init();
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
 </script>
-
 </body>
 </html>

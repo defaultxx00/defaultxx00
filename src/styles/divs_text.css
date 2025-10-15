@@ -233,3 +233,210 @@ footer {
 #texto-stack-footer {
     font-size: 3rem;
 }
+
+/* Estilos para as novas classes */
+.quote-text {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    padding: 10px;
+    text-align: left;
+}
+
+.quote-text p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.movie-ref {
+    font-style: italic;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.code-text {
+    color: #00ff00;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
+    line-height: 1.3;
+    padding: 10px;
+    text-align: left;
+}
+
+.code-text p {
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.binary-code {
+    font-size: 0.7rem;
+    opacity: 0.7;
+    word-break: break-all;
+}
+
+/* Media Queries para Responsividade */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .conteiner {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    .conteiner-main {
+        width: 90%;
+        margin-left: 5%;
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh;
+    }
+    
+    #left, #right {
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    
+    #caixa1 {
+        flex-direction: column;
+        height: auto;
+        min-height: 60vh;
+    }
+    
+    #caixa-code1, #caixa-code {
+        width: 95%;
+        margin: 10px 0;
+    }
+    
+    .conteiner-more {
+        flex-direction: column;
+        height: auto;
+        min-height: 100dvh;
+    }
+    
+    #stacks, #lang_soft {
+        width: 95%;
+        margin: 10px 0;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .conteiner {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    .conteiner-main {
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    
+    #left, #right {
+        width: 100%;
+        height: auto;
+        min-height: 40vh;
+    }
+    
+    #caixa1 {
+        width: 100%;
+        height: auto;
+        min-height: 50vh;
+    }
+    
+    #caixa-code1, #caixa-code {
+        width: 100%;
+    }
+    
+    #other {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #sexo-gif1, #sexo-gif2 {
+        width: 100%;
+        margin: 10px 0;
+        min-height: 200px;
+    }
+    
+    .conteiner-more {
+        padding: 20px 0;
+    }
+    
+    #stacks, #lang_soft {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+    
+    .quote-text {
+        font-size: 0.8rem;
+    }
+    
+    .code-text {
+        font-size: 0.7rem;
+    }
+    
+    .caixa-stk {
+        width: 85%;
+    }
+    
+    #talk {
+        width: 95%;
+        height: auto;
+        min-height: 60vh;
+    }
+    
+    #texto-stack-footer {
+        font-size: 2rem;
+    }
+}
+
+/* Mobile pequeno (max-width: 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2, h3 {
+        font-size: 1rem;
+    }
+    
+    .quote-text {
+        font-size: 0.7rem;
+        padding: 5px;
+    }
+    
+    .code-text {
+        font-size: 0.6rem;
+        padding: 5px;
+    }
+    
+    .bio-item {
+        height: auto;
+        min-height: 200px;
+    }
+    
+    #icon {
+        background-size: 60%;
+    }
+    
+    .caixa-stk {
+        width: 90%;
+    }
+}
